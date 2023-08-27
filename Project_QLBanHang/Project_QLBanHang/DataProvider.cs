@@ -10,6 +10,19 @@ namespace Project_QLBanHang
 {
     public class DataProvider
     {
+        private static LoaiKhachHangBussiness _LoaiKH = null;
+        public static LoaiKhachHangBussiness LoaiKHBus
+        {
+            get
+            { 
+                if (_LoaiKH == null)
+                {
+                    _LoaiKH = new LoaiKhachHangBussiness();
+                }
+                return _LoaiKH; 
+            }
+        }
+
         private const string _ConnectString = "Server = DUYETPM; Database=QLBANHANG; UID=sa; PWD=2569";
         public static string ConnectionString { get { return _ConnectString; } }
         public static DataTable LayDanhSach(string strSQL)

@@ -19,7 +19,7 @@ namespace Project_QLBanHang
 
         private void frmLoaiKhachHang_Load(object sender, EventArgs e)
         {
-
+            HienThiDanhSachLoaiKH();
         }
         private void HienThiDanhSachLoaiKH()
         {
@@ -40,17 +40,59 @@ namespace Project_QLBanHang
         private void gridLoaiKH_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
             int numrow = e.RowIndex;
-            txtMaKH.Text = gridLoaiKH.Rows[numrow].Cells[0].Value.ToString();
+            txtMaLoaiKH.Text = gridLoaiKH.Rows[numrow].Cells[0].Value.ToString();
             txtTenLoaiKH.Text = gridLoaiKH.Rows[numrow].Cells[1].Value.ToString();
-        }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-
         }
 
         private void btnCapNhat_Click(object sender, EventArgs e)
         {
+            string maLoai = txtMaLoaiKH.Text.Trim();
+            string tenLoai = txtTenLoaiKH.Text;
+            LoaiKhachHang objLoaiKH  = new LoaiKhachHang();
+            errorProvider1.Clear();
+            if (maLoai.Length == 0)
+            {
+                errorProvider1.SetError(txtMaLoaiKH, "Mã loại khách hàng không để trống!");
+                txtMaLoaiKH.Focus();
+                return; 
+            }
+            if (tenLoai.Length == 0)
+            {
+                errorProvider1.SetError(txtTenLoaiKH, "Tên loại khách hàng không để trống!");
+                txtTenLoaiKH.Focus();
+                return;
+            }
+            objLoaiKH.MaLoaiKH = maLoai;
+            objLoaiKH.TenLoaiKhachHang= tenLoai;
+            bool kq = DataProvider.LoaiKHBus.Sua(objLoaiKH);
+            if (kq)
+            {
+                MessageBox.Show("Sửa thông tin Loại khách hàng thành công!", "Thông báo");
+            }
+            else
+            {
+                kq = DataProvider.LoaiKHBus.Them(objLoaiKH);
+                if (kq)
+                {
+                    MessageBox.Show("Thêm thông tin Loại khách hàng thành công!", "Thông báo");
+                }
+            }
+            HienThiDanhSachLoaiKH();
+        }
+
+        private void btnXoa_Click(object sender, EventArgs e)
+        {
+            
+            DialogResult dr = MessageBox.Show("Bạn có chắc chắn muốn xóa không ?", "Thông báo", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
+            if (dr == DialogResult.Yes)
+            {
+                string maLoai = txtMaLoaiKH.Text.Trim();
+                bool kq = DataProvider.LoaiKHBus.Xoa(maLoai);
+                if (kq)
+                {
+                    HienThiDanhSachLoaiKH();
+                }
+            }
 
         }
     }

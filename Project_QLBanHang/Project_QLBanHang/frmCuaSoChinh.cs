@@ -21,5 +21,11 @@ namespace Project_QLBanHang
         {
 
         }
+
+        private void loạiKháchHàngToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmLoaiKhachHang frmLoaiKH =new frmLoaiKhachHang();
+            frmLoaiKH.ShowDialog();  
+        }
     }
 }
