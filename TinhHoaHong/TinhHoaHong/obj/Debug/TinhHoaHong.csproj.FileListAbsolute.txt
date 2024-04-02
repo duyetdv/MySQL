@@ -1,0 +1,10 @@
+D:\SQL\A102301DEV\HocVien\DuyetDV\KiemTra-TH-CuoiKhoa-25-01-24\TinhHoaHong\TinhHoaHong\bin\Debug\TinhHoaHong.exe.config
+D:\SQL\A102301DEV\HocVien\DuyetDV\KiemTra-TH-CuoiKhoa-25-01-24\TinhHoaHong\TinhHoaHong\bin\Debug\TinhHoaHong.exe
+D:\SQL\A102301DEV\HocVien\DuyetDV\KiemTra-TH-CuoiKhoa-25-01-24\TinhHoaHong\TinhHoaHong\bin\Debug\TinhHoaHong.pdb
+D:\SQL\A102301DEV\HocVien\DuyetDV\KiemTra-TH-CuoiKhoa-25-01-24\TinhHoaHong\TinhHoaHong\obj\Debug\TinhHoaHong.csproj.AssemblyReference.cache
+D:\SQL\A102301DEV\HocVien\DuyetDV\KiemTra-TH-CuoiKhoa-25-01-24\TinhHoaHong\TinhHoaHong\obj\Debug\TinhHoaHong.Properties.Resources.resources
+D:\SQL\A102301DEV\HocVien\DuyetDV\KiemTra-TH-CuoiKhoa-25-01-24\TinhHoaHong\TinhHoaHong\obj\Debug\TinhHoaHong.TinhHoaHong.resources
+D:\SQL\A102301DEV\HocVien\DuyetDV\KiemTra-TH-CuoiKhoa-25-01-24\TinhHoaHong\TinhHoaHong\obj\Debug\TinhHoaHong.csproj.GenerateResource.cache
+D:\SQL\A102301DEV\HocVien\DuyetDV\KiemTra-TH-CuoiKhoa-25-01-24\TinhHoaHong\TinhHoaHong\obj\Debug\TinhHoaHong.csproj.CoreCompileInputs.cache
+D:\SQL\A102301DEV\HocVien\DuyetDV\KiemTra-TH-CuoiKhoa-25-01-24\TinhHoaHong\TinhHoaHong\obj\Debug\TinhHoaHong.exe
+D:\SQL\A102301DEV\HocVien\DuyetDV\KiemTra-TH-CuoiKhoa-25-01-24\TinhHoaHong\TinhHoaHong\obj\Debug\TinhHoaHong.pdb
