@@ -5,7 +5,7 @@ VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TinhHoaHong", "TinhHoaHong\TinhHoaHong.csproj", "{379DE2D4-106A-4FC8-9C6C-F6F05AABFBE7}"
 EndProject
-Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "TinhHoaHong2024", "TinhHoaHong2024\TinhHoaHong2024.vdproj", "{DF8FD120-0DFC-42C6-9CCC-27FE1088608B}"
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "SetupHoaHong", "SetupHoaHong\SetupHoaHong.vdproj", "{4A73B107-3093-4D1F-92D5-796B4E0EA59B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,8 +17,8 @@ Global
 		{379DE2D4-106A-4FC8-9C6C-F6F05AABFBE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{379DE2D4-106A-4FC8-9C6C-F6F05AABFBE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{379DE2D4-106A-4FC8-9C6C-F6F05AABFBE7}.Release|Any CPU.Build.0 = Release|Any CPU
-		{DF8FD120-0DFC-42C6-9CCC-27FE1088608B}.Debug|Any CPU.ActiveCfg = Debug
-		{DF8FD120-0DFC-42C6-9CCC-27FE1088608B}.Release|Any CPU.ActiveCfg = Release
+		{4A73B107-3093-4D1F-92D5-796B4E0EA59B}.Debug|Any CPU.ActiveCfg = Debug
+		{4A73B107-3093-4D1F-92D5-796B4E0EA59B}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

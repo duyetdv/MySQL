@@ -31,7 +31,7 @@ namespace TinhHoaHong
             }
            
             txtHoaHong.Text = string.Format("{0:# ##0}", hoaHong);
-            Clipboard.SetText(txtHoaHong.Text);
+            
         }
         
 
@@ -53,7 +53,7 @@ namespace TinhHoaHong
             }
 
             txtHoaHong.Text = string.Format("{0:# ##0}", hoaHong);
-            Clipboard.SetText(txtHoaHong.Text);
+            
         }
 
         private void txtGiaNhap_TextChanged(object sender, EventArgs e)
@@ -74,7 +74,7 @@ namespace TinhHoaHong
             }
 
             txtHoaHong.Text = string.Format("{0:# ##0}", hoaHong);
-            Clipboard.SetText(txtHoaHong.Text);
+            
         }
 
         private void txtGiaBan_TextChanged(object sender, EventArgs e)
@@ -95,7 +95,7 @@ namespace TinhHoaHong
             }
 
             txtHoaHong.Text = string.Format("{0:# ##0}", hoaHong);
-            Clipboard.SetText(txtHoaHong.Text);
+            
 
         }
 
@@ -117,7 +117,7 @@ namespace TinhHoaHong
             }
 
             txtHoaHong.Text = string.Format("{0:# ##0}", hoaHong);
-            Clipboard.SetText(txtHoaHong.Text); 
+            
         }
 
         private void txtThayPin_TextChanged(object sender, EventArgs e)
@@ -138,7 +138,7 @@ namespace TinhHoaHong
             }
 
             txtHoaHong.Text = string.Format("{0:# ##0}", hoaHong);
-            Clipboard.SetText(txtHoaHong.Text);
+            
         }
 
         private void checkBox1_CheckedChanged(object sender, EventArgs e)
@@ -159,7 +159,7 @@ namespace TinhHoaHong
             }
 
             txtHoaHong.Text = string.Format("{0:# ##0}", hoaHong);
-            Clipboard.SetText(txtHoaHong.Text);
+            
         }
 
         private void txtGiaNhap_KeyPress(object sender, KeyPressEventArgs e)
@@ -167,6 +167,7 @@ namespace TinhHoaHong
             if(e.KeyChar == 13)
             {
                 checkBox1.Focus();
+                
             }
         }
 
@@ -197,6 +198,11 @@ namespace TinhHoaHong
         private void txtHoaHong_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Clipboard.SetText(txtHoaHong.Text);
         }
     }
 }
