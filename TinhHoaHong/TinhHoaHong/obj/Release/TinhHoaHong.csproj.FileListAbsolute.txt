@@ -1,0 +1,10 @@
+D:\SQL-DATA\MySQL\TinhHoaHong\TinhHoaHong\bin\Release\TinhHoaHong.exe.config
+D:\SQL-DATA\MySQL\TinhHoaHong\TinhHoaHong\bin\Release\TinhHoaHong.exe
+D:\SQL-DATA\MySQL\TinhHoaHong\TinhHoaHong\bin\Release\TinhHoaHong.pdb
+D:\SQL-DATA\MySQL\TinhHoaHong\TinhHoaHong\obj\Release\TinhHoaHong.csproj.AssemblyReference.cache
+D:\SQL-DATA\MySQL\TinhHoaHong\TinhHoaHong\obj\Release\TinhHoaHong.Properties.Resources.resources
+D:\SQL-DATA\MySQL\TinhHoaHong\TinhHoaHong\obj\Release\TinhHoaHong.TinhHoaHong.resources
+D:\SQL-DATA\MySQL\TinhHoaHong\TinhHoaHong\obj\Release\TinhHoaHong.csproj.GenerateResource.cache
+D:\SQL-DATA\MySQL\TinhHoaHong\TinhHoaHong\obj\Release\TinhHoaHong.csproj.CoreCompileInputs.cache
+D:\SQL-DATA\MySQL\TinhHoaHong\TinhHoaHong\obj\Release\TinhHoaHong.exe
+D:\SQL-DATA\MySQL\TinhHoaHong\TinhHoaHong\obj\Release\TinhHoaHong.pdb

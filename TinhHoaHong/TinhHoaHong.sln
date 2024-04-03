@@ -5,7 +5,7 @@ VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TinhHoaHong", "TinhHoaHong\TinhHoaHong.csproj", "{379DE2D4-106A-4FC8-9C6C-F6F05AABFBE7}"
 EndProject
-Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "TinhHoaHong", "C:\Users\DUYET-PC\Desktop\TinhHoaHong\TinhHoaHong.vdproj", "{21E805BD-23B8-46B6-BA86-F120126C36E4}"
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "TinhHoaHong.v1", "TinhHoaHong.v1\TinhHoaHong.v1.vdproj", "{D1CAD55E-26BE-48E1-97BB-FDF3E792452B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,8 +17,8 @@ Global
 		{379DE2D4-106A-4FC8-9C6C-F6F05AABFBE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{379DE2D4-106A-4FC8-9C6C-F6F05AABFBE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{379DE2D4-106A-4FC8-9C6C-F6F05AABFBE7}.Release|Any CPU.Build.0 = Release|Any CPU
-		{21E805BD-23B8-46B6-BA86-F120126C36E4}.Debug|Any CPU.ActiveCfg = Debug
-		{21E805BD-23B8-46B6-BA86-F120126C36E4}.Release|Any CPU.ActiveCfg = Release
+		{D1CAD55E-26BE-48E1-97BB-FDF3E792452B}.Debug|Any CPU.ActiveCfg = Debug
+		{D1CAD55E-26BE-48E1-97BB-FDF3E792452B}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
