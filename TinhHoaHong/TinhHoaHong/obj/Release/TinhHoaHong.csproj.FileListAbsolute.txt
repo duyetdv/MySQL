@@ -8,3 +8,13 @@ D:\SQL-DATA\MySQL\TinhHoaHong\TinhHoaHong\obj\Release\TinhHoaHong.csproj.Generat
 D:\SQL-DATA\MySQL\TinhHoaHong\TinhHoaHong\obj\Release\TinhHoaHong.csproj.CoreCompileInputs.cache
 D:\SQL-DATA\MySQL\TinhHoaHong\TinhHoaHong\obj\Release\TinhHoaHong.exe
 D:\SQL-DATA\MySQL\TinhHoaHong\TinhHoaHong\obj\Release\TinhHoaHong.pdb
+E:\STUDY\Hoc lap trinh Stanford\MyData\TinhHoaHong\TinhHoaHong\bin\Release\TinhHoaHong.exe.config
+E:\STUDY\Hoc lap trinh Stanford\MyData\TinhHoaHong\TinhHoaHong\bin\Release\TinhHoaHong.exe
+E:\STUDY\Hoc lap trinh Stanford\MyData\TinhHoaHong\TinhHoaHong\bin\Release\TinhHoaHong.pdb
+E:\STUDY\Hoc lap trinh Stanford\MyData\TinhHoaHong\TinhHoaHong\obj\Release\TinhHoaHong.csproj.AssemblyReference.cache
+E:\STUDY\Hoc lap trinh Stanford\MyData\TinhHoaHong\TinhHoaHong\obj\Release\TinhHoaHong.Properties.Resources.resources
+E:\STUDY\Hoc lap trinh Stanford\MyData\TinhHoaHong\TinhHoaHong\obj\Release\TinhHoaHong.TinhHoaHong.resources
+E:\STUDY\Hoc lap trinh Stanford\MyData\TinhHoaHong\TinhHoaHong\obj\Release\TinhHoaHong.csproj.GenerateResource.cache
+E:\STUDY\Hoc lap trinh Stanford\MyData\TinhHoaHong\TinhHoaHong\obj\Release\TinhHoaHong.csproj.CoreCompileInputs.cache
+E:\STUDY\Hoc lap trinh Stanford\MyData\TinhHoaHong\TinhHoaHong\obj\Release\TinhHoaHong.exe
+E:\STUDY\Hoc lap trinh Stanford\MyData\TinhHoaHong\TinhHoaHong\obj\Release\TinhHoaHong.pdb

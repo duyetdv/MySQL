@@ -17,8 +17,8 @@ namespace TinhHoaHong
             InitializeComponent();
             int giaNhap = 0, giaBan = 0, troGia = 0, thayPin = 0;
             double hoaHong = 0;
-            int.TryParse(txtGiaBan.Text.Trim(), out giaNhap);
-            int.TryParse(txtGiaNhap.Text.Trim(), out giaBan);
+            int.TryParse(txtGiaBan.Text.Trim(), out giaBan);
+            int.TryParse(txtGiaNhap.Text.Trim(), out giaNhap);
             int.TryParse(txtTroGia.Text.Trim(), out troGia);
             int.TryParse(txtThayPin.Text.Trim(), out thayPin);
             if (checkBox1.Checked)
@@ -39,8 +39,8 @@ namespace TinhHoaHong
         {
             int giaNhap = 0, giaBan = 0, troGia = 0, thayPin = 0;
             double hoaHong = 0;
-            int.TryParse(txtGiaBan.Text.Trim(), out giaNhap);
-            int.TryParse(txtGiaNhap.Text.Trim(), out giaBan);
+            int.TryParse(txtGiaBan.Text.Trim(), out giaBan);
+            int.TryParse(txtGiaNhap.Text.Trim(), out giaNhap);
             int.TryParse(txtTroGia.Text.Trim(), out troGia);
             int.TryParse(txtThayPin.Text.Trim(), out thayPin);
             if (checkBox1.Checked)
@@ -60,8 +60,8 @@ namespace TinhHoaHong
         {
             int giaNhap = 0, giaBan = 0, troGia = 0, thayPin = 0;
             double hoaHong = 0;
-            int.TryParse(txtGiaBan.Text.Trim(), out giaNhap);
-            int.TryParse(txtGiaNhap.Text.Trim(), out giaBan);
+            int.TryParse(txtGiaBan.Text.Trim(), out giaBan);
+            int.TryParse(txtGiaNhap.Text.Trim(), out giaNhap);
             int.TryParse(txtTroGia.Text.Trim(), out troGia);
             int.TryParse(txtThayPin.Text.Trim(), out thayPin);
             if (checkBox1.Checked)
@@ -81,8 +81,8 @@ namespace TinhHoaHong
         {
             int giaNhap = 0, giaBan = 0, troGia = 0, thayPin = 0;
             double hoaHong = 0;
-            int.TryParse(txtGiaBan.Text.Trim(), out giaNhap);
-            int.TryParse(txtGiaNhap.Text.Trim(), out giaBan);
+            int.TryParse(txtGiaBan.Text.Trim(), out giaBan);
+            int.TryParse(txtGiaNhap.Text.Trim(), out giaNhap);
             int.TryParse(txtTroGia.Text.Trim(), out troGia);
             int.TryParse(txtThayPin.Text.Trim(), out thayPin);
             if (checkBox1.Checked)
@@ -103,8 +103,8 @@ namespace TinhHoaHong
         {
             int giaNhap = 0, giaBan = 0, troGia = 0, thayPin = 0;
             double hoaHong = 0;
-            int.TryParse(txtGiaBan.Text.Trim(), out giaNhap);
-            int.TryParse(txtGiaNhap.Text.Trim(), out giaBan);
+            int.TryParse(txtGiaBan.Text.Trim(), out giaBan);
+            int.TryParse(txtGiaNhap.Text.Trim(), out giaNhap);
             int.TryParse(txtTroGia.Text.Trim(), out troGia);
             int.TryParse(txtThayPin.Text.Trim(), out thayPin);
             if (checkBox1.Checked)
@@ -124,8 +124,8 @@ namespace TinhHoaHong
         {
             int giaNhap = 0, giaBan = 0, troGia = 0, thayPin = 0;
             double hoaHong = 0;
-            int.TryParse(txtGiaBan.Text.Trim(), out giaNhap);
-            int.TryParse(txtGiaNhap.Text.Trim(), out giaBan);
+            int.TryParse(txtGiaBan.Text.Trim(), out giaBan);
+            int.TryParse(txtGiaNhap.Text.Trim(), out giaNhap);
             int.TryParse(txtTroGia.Text.Trim(), out troGia);
             int.TryParse(txtThayPin.Text.Trim(), out thayPin);
             if (checkBox1.Checked)
@@ -145,8 +145,8 @@ namespace TinhHoaHong
         {
             int giaNhap = 0, giaBan = 0, troGia = 0, thayPin = 0;
             double hoaHong = 0;
-            int.TryParse(txtGiaBan.Text.Trim(), out giaNhap);
-            int.TryParse(txtGiaNhap.Text.Trim(), out giaBan);
+            int.TryParse(txtGiaBan.Text.Trim(), out giaBan);
+            int.TryParse(txtGiaNhap.Text.Trim(), out giaNhap);
             int.TryParse(txtTroGia.Text.Trim(), out troGia);
             int.TryParse(txtThayPin.Text.Trim(), out thayPin);
             if (checkBox1.Checked)

@@ -18,3 +18,13 @@ D:\SQL-DATA\MySQL\TinhHoaHong\TinhHoaHong\obj\Debug\TinhHoaHong.csproj.GenerateR
 D:\SQL-DATA\MySQL\TinhHoaHong\TinhHoaHong\obj\Debug\TinhHoaHong.csproj.CoreCompileInputs.cache
 D:\SQL-DATA\MySQL\TinhHoaHong\TinhHoaHong\obj\Debug\TinhHoaHong.exe
 D:\SQL-DATA\MySQL\TinhHoaHong\TinhHoaHong\obj\Debug\TinhHoaHong.pdb
+E:\STUDY\Hoc lap trinh Stanford\MyData\TinhHoaHong\TinhHoaHong\obj\Debug\TinhHoaHong.csproj.AssemblyReference.cache
+E:\STUDY\Hoc lap trinh Stanford\MyData\TinhHoaHong\TinhHoaHong\obj\Debug\TinhHoaHong.Properties.Resources.resources
+E:\STUDY\Hoc lap trinh Stanford\MyData\TinhHoaHong\TinhHoaHong\obj\Debug\TinhHoaHong.TinhHoaHong.resources
+E:\STUDY\Hoc lap trinh Stanford\MyData\TinhHoaHong\TinhHoaHong\obj\Debug\TinhHoaHong.csproj.GenerateResource.cache
+E:\STUDY\Hoc lap trinh Stanford\MyData\TinhHoaHong\TinhHoaHong\obj\Debug\TinhHoaHong.csproj.CoreCompileInputs.cache
+E:\STUDY\Hoc lap trinh Stanford\MyData\TinhHoaHong\TinhHoaHong\obj\Debug\TinhHoaHong.exe
+E:\STUDY\Hoc lap trinh Stanford\MyData\TinhHoaHong\TinhHoaHong\obj\Debug\TinhHoaHong.pdb
+E:\STUDY\Hoc lap trinh Stanford\MyData\TinhHoaHong\TinhHoaHong\bin\Debug\TinhHoaHong.exe.config
+E:\STUDY\Hoc lap trinh Stanford\MyData\TinhHoaHong\TinhHoaHong\bin\Debug\TinhHoaHong.exe
+E:\STUDY\Hoc lap trinh Stanford\MyData\TinhHoaHong\TinhHoaHong\bin\Debug\TinhHoaHong.pdb
