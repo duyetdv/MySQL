@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace TinhHoaHong
 {
@@ -29,8 +30,8 @@ namespace TinhHoaHong
             {
                 hoaHong = ((giaBan / 1.0 - giaNhap - troGia - thayPin) / 4) * 1000;
             }
-           
-            txtHoaHong.Text = string.Format("{0:# ##0}", hoaHong);
+            txtChenhGia.Text = string.Format("{0:# ### ###}", giaBan-giaNhap);
+            txtHoaHong.Text = string.Format("{0:# ### ###}", hoaHong);
             
         }
         
@@ -51,9 +52,10 @@ namespace TinhHoaHong
             {
                 hoaHong = ((giaBan / 1.0 - giaNhap - troGia - thayPin) / 4) * 1000;
             }
+            txtChenhGia.Text = string.Format("{0:# ### ###}", giaBan - giaNhap);
+            txtHoaHong.Text = string.Format("{0:# ### ###}", hoaHong);
+           
 
-            txtHoaHong.Text = string.Format("{0:# ##0}", hoaHong);
-            
         }
 
         private void txtGiaNhap_TextChanged(object sender, EventArgs e)
@@ -72,8 +74,8 @@ namespace TinhHoaHong
             {
                 hoaHong = ((giaBan / 1.0 - giaNhap - troGia - thayPin) / 4) * 1000;
             }
-
-            txtHoaHong.Text = string.Format("{0:# ##0}", hoaHong);
+            txtChenhGia.Text = string.Format("{0:# ### ###}", giaBan - giaNhap);
+            txtHoaHong.Text = string.Format("{0:# ### ###}", hoaHong);
             
         }
 
@@ -93,8 +95,8 @@ namespace TinhHoaHong
             {
                 hoaHong = ((giaBan / 1.0 - giaNhap - troGia - thayPin) / 4) * 1000;
             }
-
-            txtHoaHong.Text = string.Format("{0:# ##0}", hoaHong);
+            txtChenhGia.Text = string.Format("{0:# ### ###}", giaBan - giaNhap);
+            txtHoaHong.Text = string.Format("{0:# ### ###}", hoaHong);
             
 
         }
@@ -115,8 +117,8 @@ namespace TinhHoaHong
             {
                 hoaHong = ((giaBan / 1.0 - giaNhap - troGia - thayPin) / 4) * 1000;
             }
-
-            txtHoaHong.Text = string.Format("{0:# ##0}", hoaHong);
+            txtChenhGia.Text = string.Format("{0:# ### ###}", giaBan - giaNhap);
+            txtHoaHong.Text = string.Format("{0:# ### ###}", hoaHong);
             
         }
 
@@ -136,8 +138,8 @@ namespace TinhHoaHong
             {
                 hoaHong = ((giaBan / 1.0 - giaNhap - troGia - thayPin) / 4) * 1000;
             }
-
-            txtHoaHong.Text = string.Format("{0:# ##0}", hoaHong);
+            txtChenhGia.Text = string.Format("{0:# ### ###}", giaBan - giaNhap);
+            txtHoaHong.Text = string.Format("{0:# ### ###}", hoaHong);
             
         }
 
@@ -157,8 +159,8 @@ namespace TinhHoaHong
             {
                 hoaHong = ((giaBan / 1.0 - giaNhap - troGia - thayPin) / 4) * 1000;
             }
-
-            txtHoaHong.Text = string.Format("{0:# ##0}", hoaHong);
+            txtChenhGia.Text = string.Format("{0:# ### ###}", giaBan - giaNhap);
+            txtHoaHong.Text = string.Format("{0:# ### ###}", hoaHong);
             
         }
 
@@ -167,7 +169,17 @@ namespace TinhHoaHong
             if(e.KeyChar == 13)
             {
                 checkBox1.Focus();
-                
+                checkBox1.BackColor = SystemColors.Highlight;
+            }
+        }
+        private void checkBox1_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.KeyChar == 13)
+            {
+                checkBox1.BackColor= SystemColors.ControlLight;
+                txtGiaNhap.Focus();
+                txtGiaNhap.SelectionStart = 0;
+                txtGiaNhap.SelectionLength = txtGiaNhap.Text.Length;
             }
         }
 
@@ -175,7 +187,10 @@ namespace TinhHoaHong
         {
             if (e.KeyChar == 13)
             {
+                
                 txtTroGia.Focus();
+                txtTroGia.SelectionStart = 0;
+                txtTroGia.SelectionLength = txtTroGia.Text.Length;
             }
         }
 
@@ -183,24 +198,20 @@ namespace TinhHoaHong
         {
             if (e.KeyChar == 13)
             {
+               
                 txtThayPin.Focus();
+                txtThayPin.SelectionStart = 0;
+                txtThayPin.SelectionLength = txtTroGia.Text.Length;
+                btnHH_Click(sender, e);
             }
         }
 
-        private void checkBox1_KeyPress(object sender, KeyPressEventArgs e)
+        private void btnGiaBan_Click(object sender, EventArgs e)
         {
-            if (e.KeyChar == 13)
-            {
-                txtGiaNhap.Focus();
-            }
+            Clipboard.SetText(string.Format("{0:# ### ###}", int.Parse(txtGiaBan.Text)*1000));
         }
 
-        private void txtHoaHong_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button1_Click(object sender, EventArgs e)
+        private void btnHH_Click(object sender, EventArgs e)
         {
             Clipboard.SetText(txtHoaHong.Text);
         }

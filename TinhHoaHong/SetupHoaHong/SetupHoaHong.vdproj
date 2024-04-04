@@ -15,7 +15,7 @@
     {
         "Entry"
         {
-        "MsmKey" = "8:_14484372AA7F452B81C6CD46CDA43494"
+        "MsmKey" = "8:_12D5A0B87EE045C6B966D3E31C3CC132"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -34,13 +34,13 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_2A173A5BDA8D26EE57A21DE0EE1358C6"
+        "OwnerKey" = "8:_18762D44CE19481D92E3974E8021C97E"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_18762D44CE19481D92E3974E8021C97E"
+        "OwnerKey" = "8:_2A173A5BDA8D26EE57A21DE0EE1358C6"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -61,6 +61,14 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+            }
         }
         "Release"
         {
@@ -77,6 +85,14 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+            }
         }
     }
     "Deployable"
@@ -106,10 +122,10 @@
         }
         "File"
         {
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_14484372AA7F452B81C6CD46CDA43494"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_12D5A0B87EE045C6B966D3E31C3CC132"
             {
-            "SourcePath" = "8:C:\\Users\\DUYET-PC\\Downloads\\Rose.ico"
-            "TargetName" = "8:Rose.ico"
+            "SourcePath" = "8:C:\\Users\\HOANGHAMOBILE\\Downloads\\Rose_icon.ico"
+            "TargetName" = "8:Rose_icon.ico"
             "Tag" = "8:"
             "Folder" = "8:_D3E7DD8F93AC40B9BE8413DB3FE66E16"
             "Condition" = "8:"
@@ -231,7 +247,7 @@
         "Keywords" = "8:"
         "ARPCOMMENTS" = "8:"
         "ARPURLINFOABOUT" = "8:"
-        "ARPPRODUCTICON" = "8:_14484372AA7F452B81C6CD46CDA43494"
+        "ARPPRODUCTICON" = "8:"
         "ARPIconIndex" = "3:0"
         "SearchPath" = "8:"
         "UseSystemSearchPath" = "11:TRUE"
@@ -336,7 +352,7 @@
         {
             "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_3AF5D43DC6A043868B6B22E9C489970E"
             {
-            "Name" = "8:TinhHoaHong2024"
+            "Name" = "8:TinhHoaHong 2024"
             "Arguments" = "8:"
             "Description" = "8:"
             "ShowCmd" = "3:1"
@@ -345,12 +361,12 @@
             "Target" = "8:_18762D44CE19481D92E3974E8021C97E"
             "Folder" = "8:_0C343D2D03184E54ABB0E759D50F43A4"
             "WorkingFolder" = "8:_D3E7DD8F93AC40B9BE8413DB3FE66E16"
-            "Icon" = "8:_14484372AA7F452B81C6CD46CDA43494"
+            "Icon" = "8:_12D5A0B87EE045C6B966D3E31C3CC132"
             "Feature" = "8:"
             }
             "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_6BC067329EAB47328A0D501DD4FECCAA"
             {
-            "Name" = "8:TinhHoaHong.2024"
+            "Name" = "8:TinhHoaHong 2024"
             "Arguments" = "8:"
             "Description" = "8:"
             "ShowCmd" = "3:1"
@@ -359,7 +375,7 @@
             "Target" = "8:_18762D44CE19481D92E3974E8021C97E"
             "Folder" = "8:_5A0FDF09E42B4BAD973B3EE382E867A6"
             "WorkingFolder" = "8:_D3E7DD8F93AC40B9BE8413DB3FE66E16"
-            "Icon" = "8:_14484372AA7F452B81C6CD46CDA43494"
+            "Icon" = "8:_12D5A0B87EE045C6B966D3E31C3CC132"
             "Feature" = "8:"
             }
         }
