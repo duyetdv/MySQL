@@ -1,0 +1,70 @@
+﻿@model IEnumerable<UpdateTSCD.Controllers.DanhSachTSCD>
+
+@{
+    ViewBag.Title = "Danh Sach TSCĐ";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Danh Sách TSCD</h2>
+
+<p>
+    @Html.ActionLink("Create New", "ThemMoi")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.LoaiTS)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ThongSo)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Photo)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NguoiSD)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.TinhTrang)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.GhiChu)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NgayTao)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.LoaiTS)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ThongSo)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Photo)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.NguoiSD)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.TinhTrang)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.GhiChu)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.NgayTao)
+        </td>
+        <td>
+            @Html.ActionLink("Sửa", "Sua", new { /* id=item.PrimaryKey */ }) |
+
+            @Html.ActionLink("Xóa", "Xoa", new { /* id=item.PrimaryKey */ })
+        </td>
+    </tr>
+}
+
+</table>
